@@ -1,0 +1,237 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"race"
+		]
+	},
+	"race": [{
+		"name": "Elfo",
+		"source": "PHB",
+		"page": 21,
+		"size": "M",
+		"speed": 9,
+		"ability": [
+			{
+				"dex": 2
+			}
+		],
+		"darkvision": 18,
+		"entries": [
+			{
+				"name": "Idade",
+				"type": "entries",
+				"entries": [
+					"Apesar de os elfos atingirem a maturidade física praticamente na mesma idade que os humanos, sua compreensão da vida adulta vai além do crescimento físico, abarcando também vivência e maturidade. Um elfo normalmente reivindica sua maioridade e seu nome adulto com cerca de 100 anos, podendo viver até os 750 anos de idade."
+				]
+			},
+			{
+				"name": "Alinhamento",
+				"type": "entries",
+				"entries": [
+					"Elfos amam a liberdade, a variedade e a autoexpressão, por isso têm uma forte inclinação para os aspectos mais sutis do caos. Eles valorizam e protegem tanto a sua própria liberdade quanto a de terceiros, sendo mais frequentemente bons do que maus. Os drow são uma exceção; seu exílio os tornou perigosos e maliciosos. Os membros dessa sub-raça têm mais tendência a serem maus do que bons."
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Tamanho",
+				"entries": [
+					"Seu tamanho é Médio. Os elfos são esguios e sua altura varia entre 1,5 e 1,8 metro."
+				]
+			},
+			{
+				"name": "Visão no Escuro",
+				"entries": [
+					"Acostumado a florestas sombreadas e céus noturnos, você tem visão superior no escuro, podendo enxergar até 18 metros na meia-luz como se fosse dia e, na escuridão, como se fosse meia-luz. Na escuridão, você só consegue discernir tons de cinza."
+				],
+				"type": "entries"
+			},
+			{
+				"name": "Sentidos Aguçados",
+				"entries": [
+					"Você é proficiente na perícia Percepção."
+				],
+				"type": "entries"
+			},
+			{
+				"name": "Acestralidade Feérica",
+				"entries": [
+					"Nenhum tipo de magia pode colocá-lo para dormir, e você tem vantagem em salvaguardas contra ser enfeitiçado."
+				],
+				"type": "entries"
+			},
+			{
+				"name": "Transe",
+				"entries": [
+					"Elfos não precisam dormir. Em vez disso, meditam profundamente, permanecendo semiconscientes 4 horas ao dia. (A expressão comum para tal meditação é \"transe\"). Enquanto medita, você pode sonhar, de certo modo; tais sonhos são, na verdade, exercícios mentais que passaram a ser quase involuntários após anos de prática. Depois de descansar dessa forma, você obtém os mesmos benefícios que um ser humano obtém após 8 horas de sono.",
+				],
+				"type": "entries"
+			},
+			{
+				"name": "Idiomas",
+				"entries": [
+					"Você fala, lê e escreve Comum e Élfico. O Élfico é fluido, com entonações sutis e gramática complexa. A literatura élfica é rica e variada, com canções e poemas famosos entre outras raças. Muitos bardos aprendem essa língua para poderem adicionar canções élficas ao seu repertório."
+				],
+				"type": "entries"
+			}
+		],
+		"subraces": [
+			{
+				"name": "Drow",
+				"alias": [
+					"Obscuro"
+				],
+				"ability": [
+					{
+						"cha": 1
+					}
+				],
+				"darkvision": 36,
+				"entries": [
+					{
+						"name": "Visão no Escuro Aprimorada",
+						"entries": [
+							"Sua visão no escuro tem um alcance maior, atingindo até 36 metros."
+						],
+						"data": {
+							"overwrite": "Visão no Escuro"
+						},
+						"type": "entries"
+					},
+					{
+						"name": "Sensibilidade à Luz Solar",
+						"entries": [
+							"Você possui desvantagem nas jogadas de ataque e nos testes de Sabedoria (Percepção) relacionados à visão quando você, o alvo do seu ataque ou qualquer coisa que esteja tentando perceber estiver sob luz solar direta."
+						],
+						"type": "entries"
+					},
+					{
+						"name": "Magia Drow",
+						"entries": [
+							"Você possui o truque \"Luzes Dançantes\"}. Ao alcançar o 3º nível, torna-se capaz de lançar a magia \"Fogo das Fadas\"} uma vez e recuperar a habilidade de fazê-lo ao fim de um descanso longo; Ao alcançar o 5º nível, pode conjurar \"Escuridão\"} uma vez por dia. O atributo usado para a conjuração dessas magias é Carisma."
+						],
+						"type": "entries"
+					},
+					{
+						"name": "Treinamento Drow com Armas",
+						"entries": [
+							"Você é proficiente com rapieiras, espadas curtas e bestas de mão."
+						],
+						"type": "entries"
+					}
+				],
+				"traitTags": [
+					"Spellcasting",
+					"Weapon Proficiency"
+				],
+				"heightAndWeight": {
+					"baseHeight": 150,
+					"heightMod": "2d6",
+					"baseWeight": 75,
+					"weightMod": "1d6"
+				}
+			},
+			{
+				"name": "Alto",
+				"speed": 9,
+				"ability": [
+					{
+						"int": 1
+					}
+				],
+				"entries": [
+					{
+						"name": "Treinamento Élfico com Armas",
+						"entries": [
+							"Você é proficiente com espada longa, espada curta, arco curto e arco longo."
+						],
+						"type": "entries"
+					},
+					{
+						"name": "Truque",
+						"entries": [
+							"Você conhece um truque da lista de magias de mago, à sua escolha. Inteligência é o atributo usado na conjuração."
+						],
+						"type": "entries"
+					},
+					{
+						"name": "Idioma Extra",
+						"entries": [
+							"Você pode falar, ler e escrever um idioma adicional à sua escolha."
+						],
+						"type": "entries"
+					}
+				],
+				"traitTags": [
+					"Weapon Proficiency",
+					"Spellcasting"
+				],
+				"srd": true,
+				"heightAndWeight": {
+					"baseHeight": 150,
+					"heightMod": "2d6",
+					"baseWeight": 75,
+					"weightMod": "1d6"
+				}
+			},
+			{
+				"name": "Silvestre",
+				"speed": 11,
+				"ability": [
+					{
+						"wis": 1
+					}
+				],
+				"entries": [
+					{
+						"name": "Treinamento Élfico com Armas.",
+						"entries": [
+							"Você é proficiente com espada curta, espada longa, arco curto e arco longo."
+						],
+						"type": "entries"
+					},
+					{
+						"name": "Pés Velozes",
+						"entries": [
+							"Seu deslocamento base é de 10,5 metros."
+						],
+						"type": "entries"
+					},
+					{
+						"name": "Máscara da Natureza",
+						"entries": [
+							"Você pode tentar se esconder mesmo quando estiver parcialmente obscurecido apenas por folhagem, chuva forte, neve em queda, névoa ou outro fenômeno natural."
+						],
+						"type": "entries"
+					}
+				],
+				"traitTags": [
+					"Weapon Proficiency"
+				],
+				"heightAndWeight": {
+					"baseHeight": 150,
+					"heightMod": "2d6",
+					"baseWeight": 75,
+					"weightMod": "1d6"
+				}
+			}
+		],
+		"soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/152/elf.mp3",
+		"traitTags": [
+			"Skill Proficiency",
+			"Improved Resting"
+		],
+		"skillProficiencies": [
+			{
+				"perception": true
+			}
+		],
+		"languageProficiencies": [
+			{
+				"common": true,
+				"elvish": true
+			}
+		]
+	}
+
+	]
+}
